@@ -12,11 +12,11 @@
 		6A4F694526C4D78D00245330 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F694426C4D78D00245330 /* RecipeListView.swift */; };
 		6A4F694726C4D78D00245330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4F694626C4D78D00245330 /* Assets.xcassets */; };
 		6A4F694A26C4D78D00245330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4F694926C4D78D00245330 /* Preview Assets.xcassets */; };
-		6A4F695726C4DA3000245330 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A4F695626C4DA3000245330 /* recipes.json */; };
 		6A4F695926C4DA9600245330 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F695826C4DA9600245330 /* Recipe.swift */; };
 		6A4F695D26C4DFEA00245330 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F695C26C4DFEA00245330 /* RecipeModel.swift */; };
 		6A4F695F26C4E35900245330 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F695E26C4E35900245330 /* DataService.swift */; };
 		6A6E093F26C8483900557491 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E093E26C8483900557491 /* RecipeDetailView.swift */; };
+		6AA7319926CF5FF400CB3C9C /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AA7319826CF5FF400CB3C9C /* recipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		6A4F694626C4D78D00245330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4F694926C4D78D00245330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A4F694B26C4D78D00245330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A4F695626C4DA3000245330 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		6A4F695826C4DA9600245330 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		6A4F695C26C4DFEA00245330 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		6A4F695E26C4E35900245330 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		6A6E093E26C8483900557491 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		6AA7319826CF5FF400CB3C9C /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../../iOS Foundations 2021/Module 4/Lesson 05/recipes.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4F694426C4D78D00245330 /* RecipeListView.swift */,
-				6A6E093E26C8483900557491 /* RecipeDetailView.swift */,
 				6A34704F26CA2D61009402EB /* RecipeTabView.swift */,
+				6A6E093E26C8483900557491 /* RecipeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 		6A4F695426C4D98400245330 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				6A4F695626C4DA3000245330 /* recipes.json */,
+				6AA7319826CF5FF400CB3C9C /* recipes.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -185,8 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A4F694A26C4D78D00245330 /* Preview Assets.xcassets in Resources */,
-				6A4F695726C4DA3000245330 /* recipes.json in Resources */,
 				6A4F694726C4D78D00245330 /* Assets.xcassets in Resources */,
+				6AA7319926CF5FF400CB3C9C /* recipes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
