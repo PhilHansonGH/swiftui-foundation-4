@@ -25,5 +25,20 @@ class RecipeModel: ObservableObject {
 
     }
     
+    // Method to caclulate ingridients for portions selected
+    static func getPortion(ingredient:Ingredient, recipeServings:Int, targetServings:Int) -> String {
+         
+        // Get a single serving size by multiplying deominator by the servings
+        
+        // Get target portion by multiplying numerator by target servings
+        
+        // Reduce fraction by greatest common divisor
+        
+        // Get the whole portion if numerator > denomerator
+        
+        // Express the remainder as a fraction
+        
+        return String(targetServings)
+    }
     
 }
