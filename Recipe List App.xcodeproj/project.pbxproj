@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A07B9F826D89AF800CA9241 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07B9F726D89AF800CA9241 /* Rational.swift */; };
 		6A34705026CA2D61009402EB /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A34704F26CA2D61009402EB /* RecipeTabView.swift */; };
 		6A4F694326C4D78D00245330 /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F694226C4D78D00245330 /* Recipe_List_App.swift */; };
 		6A4F694526C4D78D00245330 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F694426C4D78D00245330 /* RecipeListView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A07B9F726D89AF800CA9241 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		6A34704F26CA2D61009402EB /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		6A4F693F26C4D78D00245330 /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4F694226C4D78D00245330 /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A07B9F626D89AE100CA9241 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6A07B9F726D89AF800CA9241 /* Rational.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		6A4F693626C4D78D00245330 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				6A4F695226C4D97900245330 /* Models */,
 				6A4F695526C4D98800245330 /* Services */,
 				6A4F695426C4D98400245330 /* Data */,
+				6A07B9F626D89AE100CA9241 /* Utilities */,
 				6A4F694626C4D78D00245330 /* Assets.xcassets */,
 				6A4F694B26C4D78D00245330 /* Info.plist */,
 				6A4F694826C4D78D00245330 /* Preview Content */,
@@ -202,6 +213,7 @@
 			files = (
 				6A4F695926C4DA9600245330 /* Recipe.swift in Sources */,
 				6A6E093F26C8483900557491 /* RecipeDetailView.swift in Sources */,
+				6A07B9F826D89AF800CA9241 /* Rational.swift in Sources */,
 				6A4F695D26C4DFEA00245330 /* RecipeModel.swift in Sources */,
 				6A4F694526C4D78D00245330 /* RecipeListView.swift in Sources */,
 				6A4F694326C4D78D00245330 /* Recipe_List_App.swift in Sources */,
